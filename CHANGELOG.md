@@ -5,13 +5,13 @@
 [v6.3.0...master](https://github.com/deployphp/deployer/compare/v6.3.0...master)
 
 ### Added
-- Added support for `+` in `--roles` option #1610
 - Support to define remote shell path via host-config [#1708] [#1709] [#1709]
 - Added `horizon:terminate` to the Laravel recipe
 - Added `migrations_config` option to the Symfony recipes to specify Doctrine migration configuration to use
 - Added recipe for sulu 2.0 [#1758]
 - Added recipe for sulu 1.x and improve sulu 2.0 recipe [#1764]
 - Added `become` option for rsync upload
+- Added support for `+` in `--roles` option #1610
 
 ### Changed
 - Laravel recipe should not run `artisan:cache:clear` in `deploy` task
